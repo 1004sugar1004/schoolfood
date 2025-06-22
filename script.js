@@ -1,5 +1,5 @@
 const API_KEY = '6b6b6865467c41968d4bb4a9bea4bb76';
-const API_URL = `https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=${API_KEY}&Type=json&pIndex=1&pSize=100&ATPT_OFCDC_SC_CODE=M10&SD_SCHUL_CODE=8092033`;
+const API_URL = `https://open.neis.go.kr/hub/mealServiceDietInfo?Type=json&pIndex=1&pSize=100&ATPT_OFCDC_SC_CODE=M10&SD_SCHUL_CODE=8092033`;
 
 document.addEventListener('DOMContentLoaded', () => {
     const dateInput = document.getElementById('date-input');
